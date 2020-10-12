@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="mech.css">
+    <link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Mecho</title>
+</head>
+<body>
+    <div class="boom">
+        
+        <nav>
+            <ul class="menu">
+                <li class="logo"><i class="fas fa-chess-knight fa-2x" style="color: aqua;"></i> Mecho</li>
+                <li class="item" id="y"><a href="#">About</a></li>
+                <li class="item" id="e"><a href="#">Testimonials</a></li>
+                <li class="item"id="a"><a href="#">Contact</a></li>
+                <li class="item item-button" id="h"><button class="btn"><a href="#">Login</a></button></li>
+                <li class="item item-button-second" id="t"><button class="btn"><a href="register.html">Sign Up</a></button></li>
+                <li id="toggle" onclick="buttonPick()"><span><i class="fa fa-bars fa-2x" style="color: white;"></i></span>
+              </li>
+            </ul>
+        </nav>
+
+       <div class="container text-center">
+           <div class="row">
+            <div class="col-md-12 text-center">
+            <h2 class="col-md-12 text-center text1"> <span>M</span>echanic's <span>C</span>onsult</h2>
+
+                <div class="form-group ">
+                    <figcaption class=" text-center" >
+                       <div class=" text-center">
+                        <i class="fa fa-user "></i><input type="text" autocomplete="no" name="username" class="ent" placeholder="Username">
+                       </div>
+                    </figcaption>
+
+                    <figcaption>
+                        <div class="int text-center">
+                            <i class="fa fa-lock "></i><input type="password" autocomplete="no"  name="password" class="ent" placeholder="Password">
+                        </div>
+                    </figcaption>
+
+                    <div class="bt1 ">
+                        <a href="#"><button class="btn-lg">SIGN IN</button></a>
+                    </div>
+
+                    <div class="text2">
+                       <a href="register.html" class="twit">Sign Up</a>
+                        <a href="#" class="twit">Forgot Password ?</a>
+                      
+                    </div>
+
+
+                    <figcaption>
+                        <p class="third">
+                            <i class="fa fa-arrow-right"></i><a href="#" class="find">Find Nearest Mechanic</a>
+                        </p>
+                    </figcaption>
+                
+                </div>
+                
+                    
+               
+
+            </div>
+    
+           </div>
+       </div>
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tog = document.getElementById('y');
+        var tog1 = document.getElementById('e');
+        var tog2 = document.getElementById('a');
+        var tog3 = document.getElementById('h');
+        var tog4 = document.getElementById('t');
+        var  buttonPick =  function (){
+            if(tog.style.display == 'none'){
+                tog.style.display = 'block';
+            }else{
+                tog.style.display = 'none';
+            }
+    
+            if(tog1.style.display == 'none'){
+                tog1.style.display = 'block';
+            }else{
+                tog1.style.display = 'none';
+            }
+    
+            if(tog2.style.display == 'none'){
+                tog2.style.display = 'block';
+            }else{
+                tog2.style.display = 'none';
+            }
+    
+            if(tog3.style.display == 'none'){
+                tog3.style.display = 'block';
+            }else{
+                tog3.style.display = 'none';
+            }
+    
+            if(tog4.style.display == 'none'){
+                tog4.style.display = 'block';
+            }else{
+                tog4.style.display = 'none';
+            }
+        }
+    
+    
+    </script>
+    
+</body>
+</html>
