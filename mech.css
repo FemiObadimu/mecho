@@ -1,4 +1,4 @@
-*{
+No*{
     padding: 0px;
     margin: 0px;
 font-family:PT Sans;
@@ -12,7 +12,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(images/img3.jpg);
+    background-image: url(images/img4.jpg);
 }
 
 nav{
